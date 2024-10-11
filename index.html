@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+    <title>Noite de Halloween</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="casa de halloween.jpeg" alt="">
+            <p>É noite de Halloween, perto da meia-noite. Você está sozinho na rua e vê uma casa toda iluminada. É uma
+                oportunidade para pegar doces.</p>
+            <button class="btn-proximo" data-proximo="1">Não bater na porta da casa</button>
+            <button class="btn-proximo" data-proximo="2">Bater na porta da casa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="janela da casa.jpeg" alt="">
+            <p>Após alguns passos, você olha para trás e vê uma figura na janela da casa, despertando sua curiosidade</p>
+            <button class="btn-proximo" data-proximo="3">Voltar e bater na porta</button>
+            <button class="btn-proximo" data-proximo="4">Seguir seu caminho</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="fantasma na porta.jpeg" alt="">
+            <p>A porta se abre e uma fantasma aparece, junto com outras criaturas do seu lado. Você começa a pensar se isso é real ou não mas eles logo desaparecem, te deixando confuso.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na casa</button>
+        </div>
+            <div class="passo" id="passo-3">
+                <img src="fantasma na porta.jpeg" alt="">
+                <p>A porta se abre e uma fantasma aparece, junto com outras criaturas do seu lado. Você começa a pensar se isso é real ou não mas eles logo desaparecem, te deixando confuso.</p>
+                <button class="btn-proximo" data-proximo="6">Entrar na casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="esqueleto.jpeg" alt="">
+            <p>Após andar um pouco, você avista um esqueleto em seu caminho. Será que é de mentira?</p>
+            <button class="btn-proximo" data-proximo="7">Correr de volta para a casa</button>
+            <button class="btn-proximo" data-proximo="8">Tentar seguir o caminho e fugir do esqueleto</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="fantasma na porta.jpeg" alt="">
+            <p>A porta se abre e uma fantasma aparece, junto com outras criaturas do seu lado. Você começa a pensar se isso é real ou não mas eles logo desaparecem, te deixando confuso.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar na casa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="abobora menino.jpeg" alt="">
+            <p>Entrando na casa, você vê um menino com uma cabeça de abóbora e um fantasma na janela. A decoração está começando a ficar muito real...</p>
+            <button class="btn-proximo" data-proximo="10">Correr para fora da casa</button>
+            <button class="btn-proximo" data-proximo="11">Subir as escadas da casa</button>
+            <button class="btn-proximo" data-proximo="12">Abrir uma porta do seu lado para se esconder</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="abobora menino.jpeg" alt="">
+            <p>Entrando na casa, você vê um menino com uma cabeça de abóbora e um fantasma na janela. A decoração está começando a ficar muito real...</p>
+            <button class="btn-proximo" data-proximo="13">Correr para fora da casa</button>
+            <button class="btn-proximo" data-proximo="14">Subir as escadas da casa</button>
+            <button class="btn-proximo" data-proximo="15">Abrir uma porta do seu lado para se esconder</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="sua morte.jpeg" alt="">
+            <p>O esqueleto é real e te ataca violentamente. Nunca tente atacar uma criatura dessa. VOCÊ MORREU!</p>
+        </div>
+            <div class="passo" id="passo-9">
+                <img src="abobora menino.jpeg" alt="">
+                <p>Entrando na casa, você vê um menino com uma cabeça de abóbora e um fantasma na janela. A decoração está começando a ficar muito real...</p>
+                <button class="btn-proximo" data-proximo="16">Correr para fora da casa</button>
+                <button class="btn-proximo" data-proximo="17">Subir as escadas da casa</button>
+                <button class="btn-proximo" data-proximo="18">Abrir uma porta do seu lado para se esconder</button>
+            </div>
+            <div class="passo" id="passo-10">
+                <img src="floresta esqueletos.jpeg" alt="">
+                <p>Fora da casa, você avista diversos esqueletos assustadores te encarando pacificamente e dois caminhos para seguir.</p>
+                <button class="btn-proximo" data-proximo="19">Passar pelos esqueletos e ir para casa</button>
+                <button class="btn-proximo" data-proximo="20">Fugir dos esqueletos por um caminho escondido</button>
+            </div>
+            <div class="passo" id="passo-11">
+                <img src="esqueletos ouija.jpeg" alt="">
+                <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                <button class="btn-proximo" data-proximo="21">Ir até as criaturas e pedir ajuda</button>
+                <button class="btn-proximo" data-proximo="22">Abrir alguma porta e entrar para se esconder</button>
+            </div>
+                <div class="passo" id="passo-12">
+                    <img src="jantar.jpeg" alt="">
+                    <p>Há várias criaturas numa mesa de jantar e você sente através dos olhares amedrontadores que está atrapalhando um evento especial.</p>
+                    <button class="btn-proximo" data-proximo="23">Fechar a porta e subir as escadas</button>
+                </div>
+                    <div class="passo" id="passo-13">
+                        <img src="floresta esqueletos.jpeg" alt="">
+                        <p>Fora da casa, você avista diversos esqueletos assustadores te encarando pacificamente e dois caminhos para seguir.</p>
+                        <button class="btn-proximo" data-proximo="24">Passar pelos esqueletos e ir para casa</button>
+                        <button class="btn-proximo" data-proximo="25">Fugir dos esqueletos por um caminho escondido</button>
+                    </div>
+                    <div class="passo" id="passo-14">
+                        <img src="esqueletos ouija.jpeg" alt="">
+                        <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                        <button class="btn-proximo" data-proximo="26">Ir até as criaturas e pedir ajuda</button>
+                        <button class="btn-proximo" data-proximo="27">Abrir alguma porta e entrar para se esconder</button>
+                    </div>
+                    <div class="passo" id="passo-15">
+                        <img src="jantar.jpeg" alt="">
+                        <p>Há várias criaturas numa mesa de jantar e você sente através dos olhares amedrontadores que está atrapalhando um evento especial.</p>
+                        <button class="btn-proximo" data-proximo="28">Fechar a porta e subir as escadas</button>
+                    </div>
+                    <div class="passo" id="passo-16">
+                        <img src="floresta esqueletos.jpeg" alt="">
+                        <p>Fora da casa, você avista diversos esqueletos assustadores te encarando pacificamente e dois caminhos para seguir.</p>
+                        <button class="btn-proximo" data-proximo="29">Passar pelos esqueletos e ir para casa</button>
+                        <button class="btn-proximo" data-proximo="30">Fugir dos esqueletos por um caminho escondido</button>
+                    </div>
+                    <div class="passo" id="passo-17">
+                        <img src="esqueletos ouija.jpeg" alt="">
+                        <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                        <button class="btn-proximo" data-proximo="31">Ir até as criaturas e pedir ajuda</button>
+                        <button class="btn-proximo" data-proximo="32">Abrir alguma porta e entrar para se esconder</button>
+                    </div>
+                    <div class="passo" id="passo-18">
+                        <img src="jantar.jpeg" alt="">
+                        <p>Há várias criaturas numa mesa de jantar e você sente através dos olhares amedrontadores que está atrapalhando um evento especial.</p>
+                        <button class="btn-proximo" data-proximo="33">Fechar a porta e subir as escadas</button>
+                    </div>
+                    <div class="passo" id="passo-19">
+                        <img src="final quase feliz.jpeg" alt="">
+                        <p>Você sente que os esqueletos te abençoaram e consegue chegar até sua casa, mas na hora de dormir alguém te faz uma visita. VOCÊ FOI AMALDIÇOADO!</p>
+                    </div>
+                        <div class="passo" id="passo-20">
+                            <img src="morte abobora.jpeg" alt="">
+                            <p>Após um tempo caminhando, uma criatura assustadora cruza seu caminho, fazendo você se arrepender de não ter ido pelo outro caminho. VOCÊ MORREU!</p>
+                        </div>
+                        <div class="passo" id="passo-21">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-22">
+                            <img src="bruxa.jpeg" alt="">
+                            <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                            <button class="btn-proximo" data-proximo="34">Aceitar a poção da bruxa</button>
+                            <button class="btn-proximo" data-proximo="35">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-23">
+                            <img src="esqueletos ouija.jpeg" alt="">
+                            <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                            <button class="btn-proximo" data-proximo="36">Ir até as criaturas e pedir ajuda</button>
+                            <button class="btn-proximo" data-proximo="37">Abrir alguma porta e entrar para se esconder</button>
+                        </div>
+                        <div class="passo" id="passo-24">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Você sente que os esqueletos te abençoaram e consegue chegar até sua casa, mas na hora de dormir alguém te faz uma visita. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-25">
+                            <img src="morte abobora.jpeg" alt="">
+                            <p>Após um tempo caminhando, uma criatura assustadora cruza seu caminho, fazendo você se arrepender de não ter ido pelo outro caminho. VOCÊ MORREU!</p>
+                        </div>
+                        <div class="passo" id="passo-26">
+                            <img src="esqueleto observando.jpeg" alt="">
+                           <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                           <div class="passo" id="passo-27">
+                            <img src="bruxa.jpeg" alt="">
+                            <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                            <button class="btn-proximo" data-proximo="38">Aceitar a poção da bruxa</button>
+                            <button class="btn-proximo" data-proximo="39">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-28">
+                            <img src="esqueletos ouija.jpeg" alt="">
+                            <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                            <button class="btn-proximo" data-proximo="40">Ir até as criaturas e pedir ajuda</button>
+                            <button class="btn-proximo" data-proximo="41">Abrir alguma porta e entrar para se esconder</button>
+                        </div>
+                        <div class="passo" id="passo-29">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Você sente que os esqueletos te abençoaram e consegue chegar até sua casa, mas na hora de dormir alguém te faz uma visita. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-30">
+                            <img src="morte abobora.jpeg" alt="">
+                            <p>Após um tempo caminhando, uma criatura assustadora cruza seu caminho, fazendo você se arrepender de não ter ido pelo outro caminho. VOCÊ MORREU!</p>
+                        </div>
+                        <div class="passo" id="passo-31">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-32">
+                         <img src="bruxa.jpeg" alt="">
+                         <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                         <button class="btn-proximo" data-proximo="42">Aceitar a poção da bruxa</button>
+                         <button class="btn-proximo" data-proximo="43">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-33">
+                            <img src="esqueletos ouija.jpeg" alt="">
+                            <p>No segundo andar, você vê esqueletos jogando algum jogo de tabuleiro no final do corredor escuro. Quem sabe não são amigáveis?</p>
+                            <button class="btn-proximo" data-proximo="44">Ir até as criaturas e pedir ajuda</button>
+                            <button class="btn-proximo" data-proximo="45">Abrir alguma porta e entrar para se esconder</button>
+                        </div>
+                        <div class="passo" id="passo-34">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-35">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-36">
+                            <img src="esqueleto observando.jpeg" alt="">
+                           <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-37">
+                         <img src="bruxa.jpeg" alt="">
+                         <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                         <button class="btn-proximo" data-proximo="46">Aceitar a poção da bruxa</button>
+                         <button class="btn-proximo" data-proximo="47">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-38">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-39">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-40">
+                            <img src="esqueleto observando.jpeg" alt="">
+                           <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-41">
+                         <img src="bruxa.jpeg" alt="">
+                         <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                         <button class="btn-proximo" data-proximo="48">Aceitar a poção da bruxa</button>
+                         <button class="btn-proximo" data-proximo="49">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-42">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-43">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-44">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>As criaturas olham para você e logo após isso você apaga. Você acorda em uma sala escura, sentindo algo te observando da porta. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-45">
+                         <img src="bruxa.jpeg" alt="">
+                         <p>Ao adentrar a sala, uma bruxa está sentada perto da lareira. Ela te entrega uma poção, dizendo que irá te ajudar a escapar da casa.</p>
+                         <button class="btn-proximo" data-proximo="50">Aceitar a poção da bruxa</button>
+                         <button class="btn-proximo" data-proximo="51">Não aceitar a poção da bruxa</button>
+                        </div>
+                        <div class="passo" id="passo-46">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-47">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-48">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-49">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+                        <div class="passo" id="passo-50">
+                            <img src="final quase feliz.jpeg" alt="">
+                            <p>Após beber a poção, você desmaia logo em seguida. Você acorda em sua casa, mas sente que algúem está na sua janela. VOCÊ FOI AMALDIÇOADO!</p>
+                        </div>
+                        <div class="passo" id="passo-51">
+                            <img src="esqueleto observando.jpeg" alt="">
+                            <p>A bruxa sente que você não aceitará a poção então te ataca, fazendo-o desmaiar. Você acorda numa sala escura e sente alguém te observando. FIM DA LINHA PRA VOCÊ!</p>
+                        </div>
+    </main>
+<script src="script.js"></script>
+
+</body>
+
+</html>
